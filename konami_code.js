@@ -3,7 +3,7 @@ let index=0;
 function init(e) {
   
   document.addEventListener('keydown', arif);
-  
+  function arif(e){
   const key = parseInt(e.which);
  
   if (key === code[index]) {console.log(key)
